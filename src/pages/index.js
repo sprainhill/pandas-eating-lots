@@ -4,6 +4,8 @@ import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
+// test
+
 export default ({ data }) => {
   console.log(data)
   return (
