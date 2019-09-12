@@ -42,3 +42,6 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
   console.log(JSON.stringify(result, null, 4))
 }
+
+// Adds an implementation of the createPages API which Gatsby
+// calls so plugins can add pages
